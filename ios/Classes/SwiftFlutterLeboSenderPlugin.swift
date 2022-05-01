@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class SwiftLeboSenderPlugin: NSObject, FlutterPlugin {
+public class SwiftFlutterLeboSenderPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "lebo_sender", binaryMessenger: registrar.messenger())
-    let instance = SwiftLeboSenderPlugin()
+    let channel = FlutterMethodChannel(name: "flutter_lebo_sender", binaryMessenger: registrar.messenger())
+    let instance = SwiftFlutterLeboSenderPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

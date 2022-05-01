@@ -1,21 +1,21 @@
 PODS:
   - Flutter (1.0.0)
-  - lebo_sender (0.0.1):
+  - flutter_lebo_sender (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - lebo_sender (from `.symlinks/plugins/lebo_sender/ios`)
+  - flutter_lebo_sender (from `.symlinks/plugins/flutter_lebo_sender/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  lebo_sender:
-    :path: ".symlinks/plugins/lebo_sender/ios"
+  flutter_lebo_sender:
+    :path: ".symlinks/plugins/flutter_lebo_sender/ios"
 
 SPEC CHECKSUMS:
   Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
-  lebo_sender: 48111e9ba1de53b6e92811c0cba6b2f0188a1001
+  flutter_lebo_sender: 4da25dd808fd5a6849f57599ba1455a4b01e148f
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 

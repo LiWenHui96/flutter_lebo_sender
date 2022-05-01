@@ -1,7 +1,7 @@
-name: lebo_sender
+name: flutter_lebo_sender
 description: The SDK of the sending end of lebo.
 version: 0.0.1
-homepage: https://github.com/LiWenHui96/lebo_sender
+homepage: https://github.com/LiWenHui96/flutter_lebo_sender
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
@@ -29,9 +29,9 @@ flutter:
     platforms:
       android:
         package: io.lebo.sender
-        pluginClass: LeboSenderPlugin
+        pluginClass: FlutterLeboSenderPlugin
       ios:
-        pluginClass: LeboSenderPlugin
+        pluginClass: FlutterLeboSenderPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

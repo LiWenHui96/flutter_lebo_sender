@@ -1,6 +1,6 @@
-# lebo_sender_example
+# flutter_lebo_sender_example
 
-Demonstrates how to use the lebo_sender plugin.
+Demonstrates how to use the flutter_lebo_sender plugin.
 
 ## Getting Started
 

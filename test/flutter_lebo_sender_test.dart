@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:lebo_sender/lebo_sender.dart';
+import 'package:flutter_lebo_sender/flutter_lebo_sender.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('lebo_sender');
+  const MethodChannel channel = MethodChannel('flutter_lebo_sender');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await LeboSender.platformVersion, '42');
+    expect(await FlutterLeboSender.platformVersion, '42');
   });
 }

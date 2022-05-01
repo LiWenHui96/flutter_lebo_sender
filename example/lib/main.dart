@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:lebo_sender/lebo_sender.dart';
+import 'package:flutter_lebo_sender/flutter_lebo_sender.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
     // We also handle the message potentially returning null.
     try {
       platformVersion =
-          await LeboSender.platformVersion ?? 'Unknown platform version';
+          await FlutterLeboSender.platformVersion ?? 'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
