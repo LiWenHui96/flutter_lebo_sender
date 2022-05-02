@@ -1,13 +1,4 @@
+export 'src/flutter_lebo_sender.dart';
 
-import 'dart:async';
-
-import 'package:flutter/services.dart';
-
-class FlutterLeboSender {
-  static const MethodChannel _channel = MethodChannel('flutter_lebo_sender');
-
-  static Future<String?> get platformVersion async {
-    final String? version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
-  }
-}
+const String packageName = 'flutter_lebo_sender';
+const String channelName = '$packageName.io.channel/method';
